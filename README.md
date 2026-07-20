@@ -50,6 +50,8 @@ The skill auto-triggers on token-heavy requests (document summarization, wiki/DB
 
 Smoke-test cases are in [`test-prompts.md`](test-prompts.md).
 
+Pre-designed work-order recipes for common task types — multi-document digest + follow-up Q&A loop (so Claude never reads source documents, even across many questions), Excel aggregation with re-verification, two-phase wiki/DB builds, code work, and a generic fallback — live in [`references/recipes.md`](references/recipes.md).
+
 ## Customize
 
 - The skill body is written in Korean (our team's language). Model-facing instructions work as-is; translate freely if your team prefers English.
